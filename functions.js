@@ -1,2 +1,4 @@
-Javascript function file
+//Javascript function file
+
+var marker, myLatLng, map, image
 
