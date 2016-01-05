@@ -7,8 +7,28 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>   
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"></script>
-  <script src="../scripts/functions.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+        async defer></script>
+  <script src="../scripts/script.js"></script>
+  
+  <title>BART YO</title>
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=yes">
+		<meta charset="utf-8">
+	    <style>
+	      html, body {
+	        height: 100%;
+	        margin: 0;
+	        padding: 0;
+	      }
+	      #map {
+	        height: 80%;
+	      }
+	    </style>
 </head>
+
 <body>
+    <div id="map"></div>
+    <script>initMap();</script>
+
   
 </body>
